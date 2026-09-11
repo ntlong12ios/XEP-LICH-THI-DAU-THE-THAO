@@ -455,3 +455,17 @@ def serve_spa(full_path: str):
     if full_path and os.path.isfile(path):
         return FileResponse(path)
     return FileResponse(os.path.join(frontend_dist, "index.html"))
+
+
+# Vercel ASGI Prefix Stripper
+class StripAPIPrefixMiddleware:
+    def __init__(self, app):
+        self.app = app
+    async def __call__(self, scope, receive, send):
+        if scope["type"] == "http" and scope["path"].startswith("/api/"):
+            scope = dict(scope)
+            scope["path"] = scope["path"][4:]
+        await self.app(scope, receive, send)
+
+app = StripAPIPrefixMiddleware(app)
+
