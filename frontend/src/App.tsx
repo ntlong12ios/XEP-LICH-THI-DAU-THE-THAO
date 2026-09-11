@@ -1621,11 +1621,11 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
           <div style={{ fontWeight: 'bold' }}>Bộ lọc:</div>
           <select value={filterCourt} onChange={e => setFilterCourt(e.target.value)} className="input" style={{ width: 'auto', padding: '6px 12px' }}>
             <option value="">Tất cả địa điểm</option>
-            {uniqueCourts.map(c => <option key={c} value={c}>{c}</option>)}
+            {uniqueCourts.map(c => <option key={c || ''} value={c || ''}>{c}</option>)}
           </select>
           <select value={filterTime} onChange={e => setFilterTime(e.target.value)} className="input" style={{ width: 'auto', padding: '6px 12px' }}>
             <option value="">Tất cả khung giờ</option>
-            {uniqueTimes.map(t => <option key={t} value={t}>{t}</option>)}
+            {uniqueTimes.map(t => <option key={t || ''} value={t || ''}>{t}</option>)}
           </select>
           <div style={{ fontWeight: 'bold', marginLeft: 16 }}>Sắp xếp:</div>
           <select value={sortBy} onChange={e => setSortBy(e.target.value)} className="input" style={{ width: 'auto', padding: '6px 12px' }}>
