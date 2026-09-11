@@ -1287,6 +1287,7 @@ export function ScheduleScreen({ category, onRefresh }: { category: Category; on
     axios.post(`${API}/load_agenda`, formData)
       .then(r => { 
           alert(r.data.message); 
+          fetchMatches();
           onRefresh(); 
       })
       .catch(err => alert('Lỗi tải Agenda: ' + (err.response?.data?.detail || err.message)))
@@ -2025,8 +2026,21 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
 
 export default function App() {
   const [categories, setCategories] = useState<Category[]>([])
-  const [activeCatId, setActiveCatId] = useState<number | null>(null)
-  const [activeTab, setActiveTab] = useState<TabType>('teams')
+  const [activeCatId, setActiveCatId] = useState<number | null>(() => {
+    const saved = localStorage.getItem('activeCatId')
+    return saved ? parseInt(saved) : null
+  })
+  const [activeTab, setActiveTab] = useState<TabType>(() => {
+    return (localStorage.getItem('activeTab') as TabType) || 'teams'
+  })
+
+  useEffect(() => {
+    if (activeCatId !== null) localStorage.setItem('activeCatId', activeCatId.toString())
+  }, [activeCatId])
+
+  useEffect(() => {
+    localStorage.setItem('activeTab', activeTab)
+  }, [activeTab])
   const [isAdmin, setIsAdmin] = useState(() => localStorage.getItem('isAdmin') === 'true')
   const [showLogin, setShowLogin] = useState(false)
   const [password, setPassword] = useState('')

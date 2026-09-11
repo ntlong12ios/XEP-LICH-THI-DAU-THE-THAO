@@ -1,0 +1,101 @@
+Cat: 2 | Code: Trận R1-01 -> time: 08:30, court: Sân 1
+Cat: 2 | Code: Trận R1-02 -> time: 08:30, court: Sân 2
+Cat: 2 | Code: Trận R1-03 -> time: 08:30, court: Sân 3
+Cat: 2 | Code: Trận R1-04 -> time: 08:30, court: Sân 4
+Cat: 2 | Code: Trận R1-05 -> time: 08:30, court: Sân 5
+Cat: 2 | Code: Trận R1-06 -> time: 08:45, court: Sân 1
+Cat: 2 | Code: Trận R1-07 -> time: 08:45, court: Sân 2
+Cat: 2 | Code: Trận R1-08 -> time: 08:45, court: Sân 3
+Cat: 2 | Code: Trận R1-09 -> time: 08:45, court: Sân 4
+Cat: 2 | Code: Trận R1-10 -> time: 08:45, court: Sân 5
+Cat: 2 | Code: Trận R1-11 -> time: 09:00, court: Sân 1
+Cat: 2 | Code: Trận R1-12 -> time: 09:00, court: Sân 2
+Cat: 2 | Code: Trận R1-13 -> time: 09:00, court: Sân 3
+Cat: 2 | Code: Trận R1-14 -> time: 09:00, court: Sân 4
+Cat: 2 | Code: Trận R1-15 -> time: 09:00, court: Sân 5
+Cat: 2 | Code: Trận R1-16 -> time: 09:15, court: Sân 5
+Cat: 2 | Code: Trận R2-01 -> time: 09:15, court: Sân 1
+Cat: 2 | Code: Trận R2-02 -> time: 09:15, court: Sân 3
+Cat: 2 | Code: Trận R2-03 -> time: 09:30, court: Sân 1
+Cat: 2 | Code: Trận R2-04 -> time: 09:30, court: Sân 3
+Cat: 2 | Code: Trận R2-05 -> time: 09:30, court: Sân 5
+Cat: 2 | Code: Trận R2-06 -> time: 09:45, court: Sân 2
+Cat: 2 | Code: Trận R2-07 -> time: 09:45, court: Sân 4
+Cat: 2 | Code: Trận R2-08 -> time: 10:00, court: Sân 1
+Cat: 2 | Code: Trận R2-09 -> time: 09:15, court: Sân 2
+Cat: 2 | Code: Trận R2-10 -> time: 09:15, court: Sân 4
+Cat: 2 | Code: Trận R2-11 -> time: 09:30, court: Sân 2
+Cat: 2 | Code: Trận R2-12 -> time: 09:30, court: Sân 4
+Cat: 2 | Code: Trận R2-13 -> time: 09:45, court: Sân 1
+Cat: 2 | Code: Trận R2-14 -> time: 09:45, court: Sân 3
+Cat: 2 | Code: Trận R2-15 -> time: 09:45, court: Sân 5
+Cat: 2 | Code: Trận R2-16 -> time: 10:00, court: Sân 2
+Cat: 2 | Code: Trận R3-01 -> time: 10:00, court: Sân 3
+Cat: 2 | Code: Trận R3-02 -> time: 10:15, court: Sân 1
+Cat: 2 | Code: Trận R3-03 -> time: 10:15, court: Sân 2
+Cat: 2 | Code: Trận R3-04 -> time: 10:15, court: Sân 3
+Cat: 2 | Code: Trận R3-05 -> time: 10:15, court: Sân 4
+Cat: 2 | Code: Trận R3-06 -> time: 10:15, court: Sân 5
+Cat: 2 | Code: Trận R3-07 -> time: 10:15, court: Sân 6
+Cat: 2 | Code: Trận R3-08 -> time: 10:15, court: Sân 7
+Cat: 2 | Code: Trận R4-01 -> time: 10:45, court: Sân 5
+Cat: 2 | Code: Trận R4-02 -> time: 10:45, court: Sân 4
+Cat: 2 | Code: Trận R4-03 -> time: 10:45, court: Sân 3
+Cat: 2 | Code: Trận R4-04 -> time: 10:45, court: Sân 2
+Cat: 2 | Code: Trận R4-05 -> time: 10:45, court: Sân 1
+Cat: 2 | Code: Trận R4-06 -> time: 10:30, court: Sân 3
+Cat: 2 | Code: Trận R4-07 -> time: 10:30, court: Sân 2
+Cat: 2 | Code: Trận R4-08 -> time: 10:30, court: Sân 1
+Cat: 2 | Code: Nam TK 01 -> time: 13:30, court: Sân 1
+Cat: 2 | Code: Nam TK 02 -> time: 13:30, court: Sân 2
+Cat: 2 | Code: Nam TK 03 -> time: 14:00, court: Sân 1
+Cat: 2 | Code: Nam TK 04 -> time: 14:00, court: Sân 2
+Cat: 2 | Code: Nam BK 01 -> time: 14:30, court: Sân 1
+Cat: 2 | Code: Nam BK 02 -> time: 14:30, court: Sân 2
+Cat: 2 | Code: Nam CK -> time: 15:30, court: Sân 1
+Cat: 2 | Code: Nam 3-4 -> time: 15:00, court: Sân 1
+Cat: 3 | Code: N.Nữ TK 01 -> time: 13:30, court: Sân 5
+Cat: 3 | Code: N.Nữ TK 02 -> time: 13:30, court: Sân 6
+Cat: 3 | Code: N.Nữ TK 03 -> time: 14:00, court: Sân 5
+Cat: 3 | Code: N.Nữ TK 04 -> time: 14:00, court: Sân 6
+Cat: 3 | Code: N.Nữ BK 01 -> time: 14:30, court: Sân 5
+Cat: 3 | Code: N.Nữ BK 02 -> time: 14:30, court: Sân 6
+Cat: 3 | Code: N.Nữ CK -> time: 15:30, court: Sân 5
+Cat: 3 | Code: N.Nữ 3-4 -> time: 15:00, court: Sân 5
+Cat: 4 | Code: Trận R1-01 -> time: 08:30, court: Sân 6
+Cat: 4 | Code: Trận R1-02 -> time: 08:30, court: Sân 7
+Cat: 4 | Code: Trận R1-03 -> time: 08:45, court: Sân 6
+Cat: 4 | Code: Trận R1-04 -> time: 08:45, court: Sân 7
+Cat: 4 | Code: Trận R1-05 -> time: 09:00, court: Sân 6
+Cat: 4 | Code: Trận R1-06 -> time: 09:00, court: Sân 7
+Cat: 4 | Code: Trận R1-07 -> time: 09:15, court: Sân 6
+Cat: 4 | Code: Trận R1-08 -> time: 09:15, court: Sân 7
+Cat: 4 | Code: Trận R2-01 -> time: 09:30, court: Sân 6
+Cat: 4 | Code: Trận R2-02 -> time: 09:45, court: Sân 6
+Cat: 4 | Code: Trận R2-03 -> time: 10:00, court: Sân 6
+Cat: 4 | Code: Trận R2-04 -> time: 10:00, court: Sân 4
+Cat: 4 | Code: Trận R2-05 -> time: 09:30, court: Sân 7
+Cat: 4 | Code: Trận R2-06 -> time: 09:45, court: Sân 7
+Cat: 4 | Code: Trận R2-07 -> time: 10:00, court: Sân 7
+Cat: 4 | Code: Trận R2-08 -> time: 10:00, court: Sân 5
+Cat: 4 | Code: Trận R3-01 -> time: 10:30, court: Sân 7
+Cat: 4 | Code: Trận R3-02 -> time: 10:30, court: Sân 6
+Cat: 4 | Code: Trận R3-03 -> time: 10:30, court: Sân 5
+Cat: 4 | Code: Trận R3-04 -> time: 10:30, court: Sân 4
+Cat: 4 | Code: Nữ TK 01 -> time: 13:30, court: Sân 3
+Cat: 4 | Code: Nữ TK 02 -> time: 13:30, court: Sân 4
+Cat: 4 | Code: Nữ TK 03 -> time: 14:00, court: Sân 3
+Cat: 4 | Code: Nữ TK 04 -> time: 14:00, court: Sân 4
+Cat: 4 | Code: Nữ BK 01 -> time: 14:30, court: Sân 3
+Cat: 4 | Code: Nữ BK 02 -> time: 14:30, court: Sân 4
+Cat: 4 | Code: Nữ CK -> time: 15:30, court: Sân 3
+Cat: 4 | Code: Nữ 3-4 -> time: 15:00, court: Sân 3
+Cat: 1 | Code: Tứ kết 1 -> time: 08:30, court: Sân bóng 1
+Cat: 1 | Code: Tứ kết 2 -> time: 08:30, court: Sân bóng 2
+Cat: 1 | Code: Tứ kết 3 -> time: 09:30, court: Sân bóng 1
+Cat: 1 | Code: Tứ kết 4 -> time: 09:30, court: Sân bóng 2
+Cat: 1 | Code: Bán kết 1 -> time: 14:00, court: Sân bóng 1
+Cat: 1 | Code: Bán kết 2 -> time: 14:00, court: Sân bóng 2
+Cat: 1 | Code: Chung kết -> time: 15:30, court: Sân bóng 2
+Cat: 1 | Code: Tranh hạng 3 -> time: 15:30, court: Sân bóng 1
+Total matches with time/court: 100
