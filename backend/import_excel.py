@@ -4,7 +4,7 @@ import models
 import os
 import sys
 
-def run_import():
+def run_import(file_obj=None):
     models.Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     
@@ -15,11 +15,14 @@ def run_import():
     db.query(models.Category).delete()
     db.commit()
 
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = [f for f in os.listdir(base_dir) if f.endswith('.xlsx') and 'Agenda' not in f and not f.startswith('~')][0]
-    full_path = os.path.join(base_dir, file_path)
     sys.stdout.reconfigure(encoding='utf-8')
-    xls = pd.ExcelFile(full_path)
+    if file_obj:
+        xls = pd.ExcelFile(file_obj)
+    else:
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        file_path = [f for f in os.listdir(base_dir) if f.endswith('.xlsx') and 'Agenda' not in f and not f.startswith('~')][0]
+        full_path = os.path.join(base_dir, file_path)
+        xls = pd.ExcelFile(full_path)
     categories_cache = {}
 
     def get_or_create_category(name, sport):

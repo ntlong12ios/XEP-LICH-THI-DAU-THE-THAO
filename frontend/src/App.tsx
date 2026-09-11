@@ -2042,6 +2042,24 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const { toast, show } = useToast()
   
+  
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (!window.confirm('Cập nhật lại từ file Excel sẽ ghi đè toàn bộ danh sách hiện tại. Bạn có chắc chắn không?')) return;
+    
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    setLoading(true);
+    axios.post(`${API}/upload_excel`, formData)
+      .then(r => { show(r.data.message); fetchData(); })
+      .catch(err => show('Lỗi tải file: ' + (err.response?.data?.detail || err.message), 'error'))
+      .finally(() => setLoading(false));
+    // Reset input
+    e.target.value = '';
+  }
+
   const handleInitialReload = () => {
     setLoading(true)
     axios.post(`${API}/reload_teams`)
@@ -2115,9 +2133,10 @@ export default function App() {
               <h3>Chưa có dữ liệu</h3>
               <p>Danh sách giải đấu đang trống. Vui lòng kiểm tra lại file Excel và nhấn nút Cập nhật dưới đây.</p>
               <div style={{ marginTop: 20 }}>
-                 <button className="btn btn-primary" onClick={handleInitialReload} disabled={loading}>
-                   {loading ? "⏳ Đang xử lý..." : "🔄 Cập nhật dữ liệu từ Excel"}
-                 </button>
+                 <label className="btn btn-primary" style={{cursor: 'pointer', display: 'inline-block'}}>
+                   {loading ? "⏳ Đang xử lý..." : "🔄 Tải lên file Excel DATA"}
+                   <input type="file" accept=".xlsx" style={{display: 'none'}} onChange={handleFileUpload} disabled={loading} />
+                 </label>
               </div>
             </div>
         ) : (

@@ -78,6 +78,18 @@ def get_teams_by_category(category_id: int, db: Session = Depends(database.get_d
     return db.query(models.Team).filter(models.Team.category_id == category_id).all()
 
 import import_excel
+from fastapi import File, UploadFile
+import io
+
+@app.post("/upload_excel")
+async def upload_excel(file: UploadFile = File(...)):
+    try:
+        contents = await file.read()
+        import_excel.run_import(file_obj=io.BytesIO(contents))
+        return {"message": "Cập nhật dữ liệu từ file Excel thành công!"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.post("/reload_teams")
 def reload_teams():
