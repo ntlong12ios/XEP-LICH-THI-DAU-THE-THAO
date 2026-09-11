@@ -1262,30 +1262,22 @@ export function ScheduleScreen({ category, onRefresh }: { category: Category; on
 
 
 
-  const loadAgenda = () => {
-
-    setGenLoading(true)
-
-    axios.post(`${API}/load_agenda`)
-
-      .then(r => {
-
-        fetchMatches()
-
-        show(r.data.message)
-
+  const handleAgendaUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    setGenLoading(true);
+    axios.post(`${API}/load_agenda`, formData)
+      .then(r => { 
+          alert(r.data.message); 
+          onRefresh(); 
       })
-
-      .catch(e => {
-
-        const detail = e.response?.data?.detail || 'Lỗi tải Agenda!'
-
-        show(detail, 'error')
-
-      })
-
-      .finally(() => setGenLoading(false))
-
+      .catch(err => alert('Lỗi tải Agenda: ' + (err.response?.data?.detail || err.message)))
+      .finally(() => setGenLoading(false));
+    e.target.value = '';
   }
 
 

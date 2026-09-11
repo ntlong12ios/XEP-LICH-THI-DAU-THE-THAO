@@ -333,15 +333,14 @@ def update_match_schedule(match_id: int, request: schemas.UpdateScheduleRequest,
 import openpyxl
 import datetime
 @app.post("/load_agenda")
-def load_agenda(db: Session = Depends(database.get_db)):
-    import os
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(base_dir, "DATA.xlsx")
+async def load_agenda(file: UploadFile = File(...), db: Session = Depends(database.get_db)):
+    import io
     try:
-        wb = openpyxl.load_workbook(file_path, data_only=True)
+        contents = await file.read()
+        wb = openpyxl.load_workbook(filename=io.BytesIO(contents), data_only=True)
         sheet = wb['Agenda']
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Lá»—i Ä‘á»c file Excel: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Lỗi đọc file Excel: {str(e)}")
         
     updates_made = 0
     for row_idx in range(11, sheet.max_row + 1):
