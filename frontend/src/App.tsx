@@ -209,6 +209,15 @@ export function DrawScreen({ category, teams, onRefresh }: {
 
   const assignedCount = assignedIds.size
 
+  const orderedSlots = slots.slice().sort((a, b) => {
+    if (a.match_number !== b.match_number) return a.match_number - b.match_number;
+    return a.position_in_match - b.position_in_match;
+  });
+  const getGlobalSlotNum = (slotId: number) => {
+    const idx = orderedSlots.findIndex(s => s.id === slotId);
+    return idx >= 0 ? idx + 1 : 0;
+  };
+
 
 
   const filteredEntries = Object.entries(matchGroups).filter(([, slist]) => {
@@ -464,7 +473,12 @@ export function DrawScreen({ category, teams, onRefresh }: {
 
                       {/* Position label */}
 
-                      <div className="slot-position">Đội {pos + 1}</div>
+                      <div className="slot-position" style={{display: 'flex', flexDirection: 'column'}}>
+                        <span>Đội {pos + 1}</span>
+                        <span style={{color: '#d32f2f', fontWeight: 'bold', fontSize: '1.1rem', marginTop: 12, marginBottom: 12}}>
+                          Số {getGlobalSlotNum(slot.id).toString().padStart(2, '0')}
+                        </span>
+                      </div>
 
 
 
