@@ -1,4 +1,4 @@
-﻿from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from typing import List, Optional
@@ -12,6 +12,12 @@ app = FastAPI(title="MT Tournament API")
 from pydantic import BaseModel
 
 import json
+
+@app.post("/verify_admin")
+def verify_admin(data: dict):
+    if data.get("password") == "admin@1234":
+        return {"success": True}
+    return {"success": False}
 
 @app.get("/led_state")
 def get_led_state(db: Session = Depends(database.get_db)):
@@ -33,17 +39,6 @@ def update_led_state(state: dict, db: Session = Depends(database.get_db)):
         db_state = models.AppState(key="led_state", value=state_str)
         db.add(db_state)
     db.commit()
-    return {"success": True}
-    return {"success": False}
-
-@app.get("/led_state")
-def get_led_state():
-    return led_state
-
-@app.post("/led_state")
-def update_led_state(state: dict):
-    global led_state
-    led_state = state
     return {"success": True}
 
 app.add_middleware(
