@@ -75,13 +75,13 @@ def get_teams(db: Session = Depends(database.get_db)):
 def get_teams_by_category(category_id: int, db: Session = Depends(database.get_db)):
     return db.query(models.Team).filter(models.Team.category_id == category_id).all()
 
-import import_excel
 from fastapi import File, UploadFile
 import io
 
 @app.post("/upload_excel")
 async def upload_excel(file: UploadFile = File(...)):
     try:
+        import import_excel  # lazy: only loads pandas when actually needed
         contents = await file.read()
         import_excel.run_import(file_obj=io.BytesIO(contents))
         return {"message": "Cập nhật dữ liệu từ file Excel thành công!"}
@@ -92,8 +92,9 @@ async def upload_excel(file: UploadFile = File(...)):
 @app.post("/reload_teams")
 def reload_teams():
     try:
+        import import_excel  # lazy
         import_excel.run_import()
-        return {"message": "ÄÃ£ táº£i láº¡i thÃ´ng tin Ä‘á»™i tá»« file Excel!"}
+        return {"message": "Đã tải lại thông tin đội từ file Excel!"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Lá»—i: {str(e)}")
 
