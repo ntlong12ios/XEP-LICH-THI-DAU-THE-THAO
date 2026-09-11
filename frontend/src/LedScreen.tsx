@@ -53,6 +53,15 @@ export default function LedScreen() {
   const cid = ledState.data?.categoryId || ledState.data?.category?.id;
   const category = categories.find(c => c.id === cid) || ledState.data?.category;
 
+    const orderedSlots = slots.slice().sort((a: any, b: any) => {
+    if (a.match_number !== b.match_number) return a.match_number - b.match_number;
+    return a.position_in_match - b.position_in_match;
+  });
+  const getGlobalSlotNum = (slotId: number) => {
+    const idx = orderedSlots.findIndex((s: any) => s.id === slotId);
+    return idx >= 0 ? idx + 1 : 0;
+  };
+
   if (ledState.type === 'all_brackets') {
     const { isFootball } = ledState.data
     if (!slots.length && !teams.length) return <div style={{padding: 40}}>Loading brackets...</div>
@@ -102,7 +111,12 @@ export default function LedScreen() {
                   const isAssigned = !!slot.team_id;
                   return (
                     <div key={slot.id} className={`match-slot ${isAssigned ? 'slot-assigned' : ''}`}>
-                      <div className="slot-position">Đội {idx + 1}</div>
+                      <div className="slot-position" style={{display: 'flex', flexDirection: 'column'}}>
+                        <span>Đội {idx + 1}</span>
+                        <span style={{color: '#d32f2f', fontWeight: 'bold', fontSize: '1.1rem', marginTop: 12, marginBottom: 12}}>
+                          Số {getGlobalSlotNum(slot.id).toString().padStart(2, '0')}
+                        </span>
+                      </div>
                       <span className={`slot-code-badge ${isAssigned ? 'badge-assigned' : 'badge-empty'}`}>
                         {slot.team?.draw_code || (isAssigned ? '✓' : '—')}
                       </span>
@@ -172,7 +186,12 @@ export default function LedScreen() {
               const isAssigned = !!slot.team_id;
               return (
                 <div key={slot.id} className={`match-slot ${isAssigned ? 'slot-assigned' : ''}`}>
-                  <div className="slot-position">Đội {idx + 1}</div>
+                  <div className="slot-position" style={{display: 'flex', flexDirection: 'column'}}>
+                        <span>Đội {idx + 1}</span>
+                        <span style={{color: '#d32f2f', fontWeight: 'bold', fontSize: '1.1rem', marginTop: 12, marginBottom: 12}}>
+                          Số {getGlobalSlotNum(slot.id).toString().padStart(2, '0')}
+                        </span>
+                      </div>
                   <span className={`slot-code-badge ${isAssigned ? 'badge-assigned' : 'badge-empty'}`}>
                     {slot.team?.draw_code || (isAssigned ? '✓' : '—')}
                   </span>
