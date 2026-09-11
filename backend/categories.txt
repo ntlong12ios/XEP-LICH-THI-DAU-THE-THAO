@@ -1,0 +1,4 @@
+1: Bóng đá nam
+2: Pickle ball đôi nam
+3: Pickle ball đôi nam - nữ
+4: Pickle ball đôi nữ

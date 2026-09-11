@@ -1,0 +1,39 @@
+Row 7:
+1: STT
+2: Giờ 
+bắt đầu
+3: Giờ 
+kết thúc
+4: Thời 
+lượng
+5: Địa điểm - Thanh Hà
+6: None
+7: None
+8: None
+9: None
+10: None
+11: None
+12: None
+13: None
+14: Nội dung
+---
+Row 10 | Time: None | S1: None | S1 color: rgb 00000000
+Row 11 | Time: 08:00:00 | S1: Khu vực sân Bóng rổ | S1 color: theme 2
+Row 12 | Time: 08:30:00 | S1: Trận R1-01 | S1 color: theme 3
+Row 13 | Time: 08:45:00 | S1: Trận R1-06 | S1 color: theme 3
+Row 14 | Time: 09:00:00 | S1: Trận R1-11 | S1 color: theme 3
+Row 15 | Time: 09:15:00 | S1: Trận R2-01 | S1 color: theme 3
+Row 16 | Time: None | S1: MINI GAME _ MINI BREAK ~5p (sau vòng 1) | S1 color: theme 2
+Row 17 | Time: 09:30:00 | S1: Trận R2-03 | S1 color: theme 3
+Row 18 | Time: 09:45:00 | S1: Trận R2-13 | S1 color: theme 3
+Row 19 | Time: 10:00:00 | S1: Trận R2-08 | S1 color: theme 3
+Row 20 | Time: 10:15:00 | S1: Trận R3-02 | S1 color: theme 3
+Row 21 | Time: None | S1: MINI GAME _ MINI BREAK ~5p (sau vòng 2) | S1 color: theme 2
+Row 22 | Time: 10:30:00 | S1: Trận R4-08 | S1 color: theme 3
+Row 23 | Time: 10:45:00 | S1: Trận R4-05 | S1 color: theme 3
+Row 24 | Time: 11:00:00 | S1: A1-A2 | S1 color: rgb FFFFFF00
+Row 25 | Time: 11:15:00 | S1: H1-H2 | S1 color: rgb FFFFFF00
+Row 26 | Time: 11:30:00 | S1: G2-G3 | S1 color: rgb FFFFFF00
+Row 27 | Time: 11:45:00 | S1: F3-F1 | S1 color: rgb FFFFFF00
+Row 28 | Time: 12:00:00 | S1: Ăn trưa - Nghỉ trưa | S1 color: theme 2
+Row 29 | Time: 13:30:00 | S1: Nam TK 01 | S1 color: theme 3

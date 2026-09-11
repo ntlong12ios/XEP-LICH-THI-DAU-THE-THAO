@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+sport_tournament.db
+.env
+.DS_Store

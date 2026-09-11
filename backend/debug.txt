@@ -1,0 +1,1 @@
+['STT1', 'STT2', 'Nội dung  thi đấu', 'Tên đoàn (in biển)', 'Tên đơn vị  tham gia', 'Tên cá nhân tham gia', 'Chức danh', 'Người liên hệ', 'Số điện thoại', 'Ghi chú']

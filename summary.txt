@@ -1,0 +1,106 @@
+File: Giải MT Mở rộng 2026 - up 28.08.26.xlsx
+Sheets: ['BĐ 28.08', 'Pick 28.08', 'BĐ Nam', 'Pick', 'Agenda', 'P.2NN', 'P.2Nữ', 'P.2Nam']
+
+--- Sheet: BĐ 28.08 ---
+                                                             CÔNG TY CP TẬP ĐOÀN MƯỜNG THANH Unnamed: 1         Unnamed: 2          Unnamed: 3               Unnamed: 4            Unnamed: 5  Unnamed: 6     Unnamed: 7     Unnamed: 8 Unnamed: 9
+0  DANH SÁCH KHÁCH MỜI KHU VỰC HÀ NỘI THAM GIA GIẢI PICKLE BALL VÀ BÓNG ĐÁ MƯỜNG THANH 2026         NaN                NaN                 NaN                      NaN                   NaN         NaN            NaN            NaN        NaN
+1                                                                                        NaN        NaN                NaN                 NaN                      NaN                   NaN         NaN            NaN            NaN        NaN
+2                                                                                       STT1       STT2  Nội dung  thi đấu  Tên đoàn (in biển)     Tên đơn vị  tham gia  Tên cá nhân tham gia   Chức danh  Người liên hệ  Số điện thoại    Ghi chú
+3                                                                                          1          1        Bóng đá nam             FC Soho  Đội bóng đá nam FC Soho      Nguyễn Đức Thắng         NaN            NaN            NaN        NaN
+4                                                                                        NaN          2        Bóng đá nam                 NaN  Đội bóng đá nam FC Soho       Đoàn Mạnh Trung         NaN            NaN            NaN        NaN
+5                                                                                        NaN          3        Bóng đá nam                 NaN  Đội bóng đá nam FC Soho          Thái Anh Đức         NaN            NaN            NaN        NaN
+6                                                                                        NaN          4        Bóng đá nam                 NaN  Đội bóng đá nam FC Soho       Dương Ngọc Minh         NaN            NaN            NaN        NaN
+7                                                                                        NaN          5        Bóng đá nam                 NaN  Đội bóng đá nam FC Soho         Đỗ Trung Kiên  Đội trưởng   0946 166 188            NaN        NaN
+8                                                                                        NaN          6        Bóng đá nam                 NaN  Đội bóng đá nam FC Soho          Bùi Hữu Minh         NaN            NaN            NaN        NaN
+9                                                                                        NaN          7        Bóng đá nam                 NaN  Đội bóng đá nam FC Soho    Nguyễn Hoàng Dương         NaN            NaN            NaN        NaN
+
+--- Sheet: Pick 28.08 ---
+                                                             CÔNG TY CP TẬP ĐOÀN MƯỜNG THANH Unnamed: 1           Unnamed: 2            Unnamed: 3                     Unnamed: 4            Unnamed: 5       Unnamed: 6 Unnamed: 7        Unnamed: 8     Unnamed: 9              Unnamed: 10
+0  DANH SÁCH KHÁCH MỜI KHU VỰC HÀ NỘI THAM GIA GIẢI PICKLE BALL VÀ BÓNG ĐÁ MƯỜNG THANH 2026         NaN                  NaN                   NaN                            NaN                   NaN              NaN        NaN               NaN            NaN                      NaN
+1                                                                                        NaN        NaN                  NaN                   NaN                            NaN                   NaN              NaN        NaN               NaN            NaN                      NaN
+2                                                                                       STT1       STT2     Nội dung thi đấu    Tên đoàn (in biển)            Tên đơn vị tham gia  Tên cá nhân tham gia              NaN  Chức danh     Người liên hệ  Số điện thoại                  Ghi chú
+3                                                                                          1          1  Pickle ball đôi nam          FC Nhà Mường                      (cá nhân)       Hoàng Minh Tuấn   Triệu Xuân Phú        NaN   Hoàng Minh Tuấn   0989 743 601        Phạm Thị Thu Thủy
+4                                                                                        NaN          2  Pickle ball đôi nam          FC Nhà Mường                      (cá nhân)      Phạm Thanh Bình      Đặng Tuấn Vũ        NaN  Phạm Thanh Bình    0902 109 090            Ms. Huyền OFM
+5                                                                                        NaN          3  Pickle ball đôi nam          FC Nhà Mường                      (cá nhân)          Bùi Gia Mão    Hồ Thành Trung        NaN               NaN            NaN            Ms. Huyền OFM
+6                                                                                        NaN          4  Pickle ball đôi nam          FC Nhà Mường                      (cá nhân)       Trần Việt Hoàng   Mai Trung Dũng        NaN      Ms. Quyên GC            NaN            Ms. Huyền OFM
+7                                                                                        NaN          5  Pickle ball đôi nam  Nhà thầu Mường Thanh  Công ty Toàn Thiện + Tâm Việt          Lê Đình Hợi       Tạ Anh Tuấn   Giám đốc       Lê Đình Hợi   0962 744 188  Mr. Tuấn - 0932 090 066
+8                                                                                        NaN          6  Pickle ball đôi nam  Nhà thầu Mường Thanh                  Công ty DoZa       Hoàng Đức Trung   Trần Thanh Tùng   Giám đốc   Hoàng Đức Trung   0904 463 718                      NaN
+9                                                                                        NaN          7  Pickle ball đôi nam  Nhà thầu Mường Thanh                  Công ty ALPHA       Dương Văn Theo   Nguyễn Văn Ninh   Giám đốc    Dương Văn Theo   0982 155 516                      NaN
+
+--- Sheet: BĐ Nam ---
+                                   Công ty CP Tập đoàn Mường Thanh Unnamed: 1 Unnamed: 2 Unnamed: 3  Unnamed: 4 Dự kiến phân nhánh Unnamed: 6 Unnamed: 7 Unnamed: 8
+0                                             Ban Tổ chức Thể thao        NaN        NaN        NaN         NaN            FC Soho   BĐ Nam 1  Bán kết 1  Chung kết
+1                                                              NaN        NaN        NaN        NaN         NaN              FC MT   BĐ Nam 2        NaN        NaN
+2  GIẢI THỂ THAO MƯỜNG THANH MỞ RỘNG 2026 - MÔN: BÓNG ĐÁ NAM SÂN 7        NaN        NaN        NaN         NaN                NaN        NaN        NaN        NaN
+3               Địa điểm: Khu liên hiệp thể thao Thanh Hà - Hà Nội        NaN        NaN        NaN         NaN       FC Trường Sa   BĐ Nam 3  Bán kết 2        NaN
+4                                            Thời gian: 19.09.2026        NaN        NaN        NaN         NaN                 MB   BĐ Nam 4        NaN        NaN
+5                                                              NaN        NaN        NaN        NaN         NaN                NaN        NaN        NaN        NaN
+6                                        1. Danh sách đội tham gia        NaN        NaN        NaN         NaN            FC Doza   BĐ Nam 5  Bán kết 3      Ba-Tư
+7                                                              NaN        NaN        NaN        NaN         NaN                DKV   BĐ Nam 6        NaN        NaN
+8                                                              STT    Nhánh 1    Nhánh 2    Ghi chú         NaN                NaN        NaN        NaN        NaN
+9                                                                1    FC Soho      FC CL        NaN         NaN               BIDV   BĐ Nam 7  Bán kết 4        NaN
+
+--- Sheet: Pick ---
+                                 Công ty CP Tập đoàn Mường Thanh Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6    Unnamed: 7 Unnamed: 8 Unnamed: 9
+0                                           Ban Tổ chức Thể thao        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+1                                                            NaN        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+2  GIẢI THỂ THAO MƯỜNG THANH MỞ RỘNG 2026 - MÔN: PICKLE BALL ĐÔI        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+3             Địa điểm: Khu liên hiệp thể thao Thanh Hà - Hà Nội        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+4                                          Thời gian: 19.09.2026        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+5                                                            NaN        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+6                                      1. Danh sách đội tham gia        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+7                                                            NaN        NaN        NaN        NaN        NaN        NaN        NaN           NaN        NaN        NaN
+8                                                            STT  Khách mời     Nội bộ    Ghi chú    Tổng số        NaN  Đk nội bộ  Chỉ tiêu NBI        NaN        NaN
+9                                                              1         28          4    Đôi Nam         32        NaN         18             4        NaN        NaN
+
+--- Sheet: Agenda ---
+                             Công ty CP Tập đoàn Mường Thanh     Unnamed: 1      Unnamed: 2    Unnamed: 3           Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7    Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12                             Unnamed: 13                              Unnamed: 14                                                                                                          Unnamed: 15  Unnamed: 16                                                          Unnamed: 17 Unnamed: 18
+0                                       Ban Tổ chức Thể thao            NaN             NaN           NaN                  NaN        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN                                                     Note 21.08.2026:         NaN
+1  GIẢI THỂ THAO MƯỜNG THANH MỞ RỘNG 2026 - MÔN: BÓNG ĐÁ NAM            NaN             NaN           NaN                  NaN        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN                             Điều chỉnh tính toán khai mạc đủ các đội         NaN
+2         Địa điểm: Khu liên hiệp thể thao Thanh Hà - Hà Nội            NaN             NaN           NaN                  NaN        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN  Giải pick gói gọn trong 1 ngày, nếu đông có thể điều chỉnh thể thức         NaN
+3                                   Thời gian: 19-20.09.2026            NaN             NaN           NaN                  NaN        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN                                                      Event 250 người         NaN
+4                                                        NaN            NaN             NaN           NaN            P Đôi Nam        NaN   P Đôi Nữ        NaN  P Đôi Nam-Nữ        NaN         NaN         NaN         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN                                                                  NaN         NaN
+5                                                        STT  Giờ \nbắt đầu  Giờ \nkết thúc  Thời \nlượng  Địa điểm - Thanh Hà        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN                                Nội dung                                  Ghi chú                                                                                                                  NaN          NaN                                                                   24  2 nam - nữ
+6                                                        NaN            NaN             NaN           NaN         Nhà thi đấu         NaN        NaN        NaN           NaN        NaN         NaN    Sân bóng         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN                                                                   16        2 nữ
+7                                                        NaN            NaN             NaN           NaN                   S1         S2         S3         S4            S5         S6          S7       Sân 1       Sân 2                                     NaN                                      NaN                                                                                                                  NaN          NaN                                                                  NaN         NaN
+8                                            Ngày 19.09.2026            NaN             NaN           NaN                  NaN        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN                                     NaN                                      NaN                                                                                                                  NaN          NaN                                                                   32       2 nam
+9                                                          1       08:00:00        08:30:00      00:30:00  Khu vực sân Bóng rổ        NaN        NaN        NaN           NaN        NaN         NaN         NaN         NaN  Khai mạc 2 Môn - Toàn bộ BTC, VĐV, CĐV  Chi tiết trong kịch bản của Ban Sự kiện  Teabreak phục vụ xuyên suốt:\n- Nước suối\n- Trà\n- Cà phê\n- Nước điện giải Pocari\n- Bia\n- Bánh ngọt\n- Trài cây          NaN                                                                  NaN         NaN
+
+--- Sheet: P.2NN ---
+  24 Đôi NAM_NỮ Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15
+0        Bảng A        NaN     Bảng B        NaN     Bảng C        NaN     Bảng D        NaN     Bảng E        NaN      Bảng F         NaN      Bảng G         NaN      Bảng H         NaN
+1        Mã đội    Tên đội     Mã đội    Tên đội     Mã đội    Tên đội     Mã đội    Tên đội     Mã đội    Tên đội      Mã đội     Tên đội      Mã đội     Tên đội      Mã đội     Tên đội
+2            A1        NaN         B1        NaN         C1        NaN         D1        NaN         E1        NaN          F1         NaN          G1         NaN          H1         NaN
+3            A2        NaN         B2        NaN         C2        NaN         D2        NaN         E2        NaN          F2         NaN          G2         NaN          H2         NaN
+4            A3        NaN         B3        NaN         C3        NaN         D3        NaN         E3        NaN          F3         NaN          G3         NaN          H3         NaN
+5         A1-A2        NaN      B1-B2        NaN      C1-C2        NaN      D1-D2        NaN      E1-E2        NaN       F1-F2         NaN       G1-G2         NaN       H1-H2         NaN
+6         A2-A3        NaN      B2-B3        NaN      C2-C3        NaN      D2-D3        NaN      E2-E3        NaN       F2-F3         NaN       G2-G3         NaN       H2-H3         NaN
+7         A3-A1        NaN      B3-B1        NaN      C3-C1        NaN      D3-D1        NaN      E3-E1        NaN       F3-F1         NaN       G3-G1         NaN       H3-H1         NaN
+8           NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN
+9        Nhất A     Nhất B     Nhất C     Nhất D     Nhất E     Nhất F     Nhất G     Nhất H        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN
+
+--- Sheet: P.2Nữ ---
+         16 Đôi NỮ  Unnamed: 1       Unnamed: 2  Unnamed: 3          Unnamed: 4  Unnamed: 5       Unnamed: 6 Unnamed: 7        Unnamed: 8  Unnamed: 9
+0  Vòng 1 (8 trận)         NaN  Vòng 2 (8 trận)         NaN  Vòng 3-PO (4 trận)         NaN  Tứ kết (4 trận)        NaN  Bán kết (2 trận)         NaN
+1          Tên đội     Mã trận          Tên đội     Mã trận             Tên đội     Mã trận          Tên đội    Mã trận           Tên đội     Mã trận
+2        Đôi Nữ 01  Trận R1-01      Thắng R1-01  Trận R2-01         Thắng R2-01   Được nghỉ      Thắng R2-01  Tứ kết 01       Thắng TK 01  Bán kết 01
+3        Đôi Nữ 02         NaN      Thắng R1-02         NaN         Thắng R2-02   Được nghỉ      Thắng R3-04        NaN       Thắng TK 02         NaN
+4        Đôi Nữ 03  Trận R1-02      Thắng R1-03  Trận R2-02         Thắng R2-03   Được nghỉ      Thắng R2-02  Tứ kết 02       Thắng TK 03  Bán kết 02
+5        Đôi Nữ 04         NaN      Thắng R1-04         NaN         Thắng R2-04   Được nghỉ      Thắng R3-03        NaN       Thắng TK 04         NaN
+6        Đôi Nữ 05  Trận R1-03      Thắng R1-05  Trận R2-03           Bại R2-01  Trận R3-01      Thắng R2-03  Tứ kết 03               NaN         NaN
+7        Đôi Nữ 06         NaN      Thắng R1-06         NaN           Bại R2-02         NaN      Thắng R3-02        NaN    Ba-Tư (1 trận)         NaN
+8        Đôi Nữ 07  Trận R1-04      Thắng R1-07  Trận R2-04           Bại R2-03  Trận R3-02      Thắng R2-04  Tứ kết 04         Bại BK 01       Ba-Tư
+9        Đôi Nữ 08         NaN      Thắng R1-08         NaN           Bại R2-04         NaN      Thắng R3-01        NaN         Bại BK 02         NaN
+
+--- Sheet: P.2Nam ---
+         32 Đôi NAM  Unnamed: 1        Unnamed: 2  Unnamed: 3          Unnamed: 4 Unnamed: 5       Unnamed: 6  Unnamed: 7       Unnamed: 8 Unnamed: 9       Unnamed: 10 Unnamed: 11
+0  Vòng 1 (16 trận)         NaN  Vòng 2 (16 trận)         NaN  Vòng 3-PO (8 trận)        NaN  Vòng 4 (8 trận)         NaN  Tứ kết (4 trận)        NaN  Bán kết (2 trận)         NaN
+1           Tên đội     Mã trận           Tên đội     Mã trận             Tên đội    Mã trận          Tên đội     Mã trận          Tên đội    Mã trận           Tên đội     Mã trận
+2        Đôi Nam 01  Trận R1-01       Thắng R1-01  Trận R2-01         Thắng R2-01  Được nghỉ      Thắng R2-01  Trận R4-01      Thắng R4-01  Tứ kết 01       Thắng TK 01  Bán kết 01
+3        Đôi Nam 02         NaN       Thắng R1-02         NaN         Thắng R2-02  Được nghỉ      Thắng R3-08         NaN      Thắng R4-02        NaN       Thắng TK 02         NaN
+4        Đôi Nam 03  Trận R1-02       Thắng R1-03  Trận R2-02         Thắng R2-03  Được nghỉ      Thắng R2-02  Trận R4-02      Thắng R4-03  Tứ kết 02       Thắng TK 03  Bán kết 02
+5        Đôi Nam 04         NaN       Thắng R1-04         NaN         Thắng R2-04  Được nghỉ      Thắng R3-07         NaN      Thắng R4-04        NaN       Thắng TK 04         NaN
+6        Đôi Nam 05  Trận R1-03       Thắng R1-05  Trận R2-03         Thắng R2-05  Được nghỉ      Thắng R2-03  Trận R4-03      Thắng R4-05  Tứ kết 03               NaN         NaN
+7        Đôi Nam 06         NaN       Thắng R1-06         NaN         Thắng R2-06  Được nghỉ      Thắng R3-06         NaN      Thắng R4-06        NaN    Ba-Tư (1 trận)         NaN
+8        Đôi Nam 07  Trận R1-04       Thắng R1-07  Trận R2-04         Thắng R2-07  Được nghỉ      Thắng R2-04  Trận R4-04      Thắng R4-07  Tứ kết 04         Bại BK 01       Ba-Tư
+9        Đôi Nam 08         NaN       Thắng R1-08         NaN         Thắng R2-08  Được nghỉ      Thắng R3-05         NaN      Thắng R4-08        NaN         Bại BK 02         NaN
