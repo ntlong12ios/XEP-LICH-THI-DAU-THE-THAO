@@ -12,7 +12,11 @@ else:
 # Read DATABASE_URL from environment, fallback to sqlite
 DATABASE_URL = os.environ.get("DATABASE_URL")
 if not DATABASE_URL:
-    DB_PATH = os.path.join(BASE_DIR, "sport_tournament.db")
+    # Use /tmp for sqlite on Vercel to avoid read-only filesystem errors
+    if os.environ.get("VERCEL"):
+        DB_PATH = "/tmp/sport_tournament.db"
+    else:
+        DB_PATH = os.path.join(BASE_DIR, "sport_tournament.db")
     SQLALCHEMY_DATABASE_URL = f"sqlite:///{DB_PATH}"
 else:
     # If postgresql URL starts with postgres://, replace with postgresql:// for SQLAlchemy

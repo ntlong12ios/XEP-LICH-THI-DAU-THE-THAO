@@ -6,7 +6,10 @@ import database
 import models
 import schemas
 
-models.Base.metadata.create_all(bind=database.engine)
+try:
+    models.Base.metadata.create_all(bind=database.engine)
+except Exception as e:
+    print("Database connection error on startup:", e)
 
 app = FastAPI(title="MT Tournament API")
 from pydantic import BaseModel

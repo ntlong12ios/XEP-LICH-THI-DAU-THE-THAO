@@ -2032,6 +2032,8 @@ export default function App() {
       } else {
         alert("Sai mật khẩu");
       }
+    }).catch(err => {
+      alert("Lỗi kết nối tới Server: " + (err.response?.data?.detail || err.message));
     })
   }
 
