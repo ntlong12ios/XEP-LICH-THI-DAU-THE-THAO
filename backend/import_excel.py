@@ -37,7 +37,7 @@ def run_import(file_obj=None):
         return categories_cache[name]
 
     if "BĐ 28.08" in xls.sheet_names:
-        df_bd = pd.read_excel(full_path, sheet_name="BĐ 28.08")
+        df_bd = pd.read_excel(xls, sheet_name="BĐ 28.08")
         for index in range(3, len(df_bd)):
             row = df_bd.iloc[index]
             ma_doi = str(row.iloc[2]).strip()
@@ -74,7 +74,7 @@ def run_import(file_obj=None):
         db.commit()
 
     if "Pick 28.08" in xls.sheet_names:
-        df_pick = pd.read_excel(full_path, sheet_name="Pick 28.08")
+        df_pick = pd.read_excel(xls, sheet_name="Pick 28.08")
         for index in range(3, len(df_pick)):
             row = df_pick.iloc[index]
             ma_doi = str(row.iloc[2]).strip()
