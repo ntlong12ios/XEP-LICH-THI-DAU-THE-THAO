@@ -1575,10 +1575,10 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
           {genLoading ? '⏳' : '⚡'} {matches.length > 0 ? 'Tạo lại lịch từ sơ đồ' : 'Tạo lịch từ sơ đồ bốc thăm'}
         </button>}
 
-        {isAdmin && <button className="btn btn-secondary" onClick={loadAgenda} disabled={genLoading}>
-
+        {isAdmin && <label className="btn btn-secondary" style={{cursor: 'pointer', display: 'inline-flex', alignItems: 'center'}}>
           {genLoading ? '⏳' : '📥'} Tải Agenda từ Excel
-        </button>}
+          <input type="file" accept=".xlsx" style={{display: 'none'}} onChange={handleAgendaUpload} disabled={genLoading} />
+        </label>}
 
         <div style={{ flex: 1 }} />
 
