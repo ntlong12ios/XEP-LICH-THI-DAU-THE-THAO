@@ -614,6 +614,35 @@ function TeamsScreen({ category, teams, onRefresh }: { category: Category; teams
 
   }
 
+  const handleUpdateAthletesOnly = () => {
+
+    if (!window.confirm('Chỉ cập nhật tên VĐV và thông tin liên hệ từ file Excel. Kết quả bốc thăm và lịch thi đấu sẽ được GIỮ NGUYÊN. Tiếp tục?')) return
+
+    setLoading(true)
+
+    axios.post(`${API}/update_athletes_only`)
+
+      .then(r => {
+
+        show(r.data.message)
+
+        onRefresh()
+
+      })
+
+      .catch(e => {
+
+        const detail = e.response?.data?.detail || 'Lỗi cập nhật VĐV!'
+
+        show(detail, 'error')
+
+      })
+
+      .finally(() => setLoading(false))
+
+  }
+
+
 
 
   const filtered = teams.filter(t => {
@@ -648,10 +677,14 @@ function TeamsScreen({ category, teams, onRefresh }: { category: Category; teams
 
       <div style={{ display: 'flex', gap: 12, marginBottom: 20, flexWrap: 'wrap', alignItems: 'center' }}>
 
-        {isAdmin && <button className="btn btn-secondary" onClick={handleReload} disabled={loading}>
-
-          {loading ? '⏳' : '🔄'} Cập nhật thông tin đội
+        {isAdmin && <button className="btn btn-primary" onClick={handleUpdateAthletesOnly} disabled={loading}>
+          {loading ? '⏳' : '✏️'} Cập nhật tên VĐV
         </button>}
+
+        {isAdmin && <button className="btn btn-secondary" onClick={handleReload} disabled={loading}>
+          {loading ? '⏳' : '🔄'} Import lại toàn bộ
+        </button>}
+
 
         {isAdmin && <button className="btn btn-secondary" onClick={() => printToPDF()}>📄 Xuất PDF</button>}
 

@@ -98,6 +98,37 @@ def reload_teams():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Lá»—i: {str(e)}")
 
+@app.post("/update_athletes_only")
+def update_athletes_only():
+    """
+    Chỉ cập nhật tên VĐV và thông tin liên hệ từ file Excel.
+    Giữ nguyên toàn bộ kết quả bốc thăm và lịch thi đấu.
+    """
+    try:
+        import import_excel  # lazy
+        updated_teams, updated_athletes = import_excel.run_update_athletes_only()
+        return {
+            "message": f"Đã cập nhật {updated_athletes} VĐV của {updated_teams} đội. Bốc thăm và lịch thi đấu được giữ nguyên."
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Lỗi: {str(e)}")
+
+@app.post("/update_athletes_only_upload")
+async def update_athletes_only_upload(file: UploadFile = File(...)):
+    """
+    Chỉ cập nhật tên VĐV và thông tin liên hệ từ file Excel được upload.
+    Giữ nguyên toàn bộ kết quả bốc thăm và lịch thi đấu.
+    """
+    try:
+        import import_excel  # lazy
+        contents = await file.read()
+        updated_teams, updated_athletes = import_excel.run_update_athletes_only(file_obj=io.BytesIO(contents))
+        return {
+            "message": f"Đã cập nhật {updated_athletes} VĐV của {updated_teams} đội. Bốc thăm và lịch thi đấu được giữ nguyên."
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.put("/teams/{team_id}/draw_code", response_model=schemas.Team)
 def update_team_draw_code(team_id: int, draw_code: str, db: Session = Depends(database.get_db)):
     # Remove this draw_code from any other team first (swap logic)
