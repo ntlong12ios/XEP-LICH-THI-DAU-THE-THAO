@@ -1472,17 +1472,13 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
             <div className="schedule-match-teams">
 
               <span className="team-name-sched" title={buildTooltip(match.team1)}>
-
-                {match.team1?.draw_code || match.team1?.name || '?'}
-
+                {match.team1?.draw_code && match.team1.draw_code !== match.team1.name ? <span className="draw-code-inline">{match.team1.draw_code}</span> : null}
+                {match.team1?.name || match.team1?.draw_code || '?'}
               </span>
-
               <strong style={{ color: 'var(--red)', margin: '0 6px' }}>vs</strong>
-
               <span className="team-name-sched" title={buildTooltip(match.team2)}>
-
-                {match.team2?.draw_code || match.team2?.name || '?'}
-
+                {match.team2?.draw_code && match.team2.draw_code !== match.team2.name ? <span className="draw-code-inline">{match.team2.draw_code}</span> : null}
+                {match.team2?.name || match.team2?.draw_code || '?'}
               </span>
 
             </div>
@@ -1494,19 +1490,12 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
           
 
           <div className="schedule-match-athletes" style={{ flex: 1, borderLeft: '1px solid #eee', paddingLeft: 16 }}>
-
             <div style={{ fontSize: 12, color: '#555', marginBottom: 2 }}>
-
-               <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team1?.draw_code || 'Đội 1'}:</span> {match.team1?.athletes.map(a => a.name).join(' & ') || match.team1?.name || '—'}
-
+               <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team1?.name || match.team1?.draw_code || 'Đội 1'}:</span> {match.team1?.athletes.map(a => a.name).join(' & ') || '—'}
             </div>
-
             <div style={{ fontSize: 12, color: '#555' }}>
-
-               <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team2?.draw_code || 'Đội 2'}:</span> {match.team2?.athletes.map(a => a.name).join(' & ') || match.team2?.name || '—'}
-
+               <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team2?.name || match.team2?.draw_code || 'Đội 2'}:</span> {match.team2?.athletes.map(a => a.name).join(' & ') || '—'}
             </div>
-
           </div>
 
         </div>
@@ -1975,21 +1964,15 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
                     <div style={{ fontSize: 11, color: '#888', marginBottom: 4, textTransform: 'uppercase', fontWeight: 600 }}>{cat?.name}</div>
 
                     <div className="schedule-match-teams">
-
                       <span className="team-name-sched" title={buildTooltip(match.team1)}>
-
-                        {match.team1?.draw_code || match.team1?.name || '?'}
-
+                        {match.team1?.draw_code && match.team1.draw_code !== match.team1.name ? <span className="draw-code-inline">{match.team1.draw_code}</span> : null}
+                        {match.team1?.name || match.team1?.draw_code || '?'}
                       </span>
-
                       <strong style={{ color: 'var(--red)', margin: '0 6px' }}>vs</strong>
-
                       <span className="team-name-sched" title={buildTooltip(match.team2)}>
-
-                        {match.team2?.draw_code || match.team2?.name || '?'}
-
+                        {match.team2?.draw_code && match.team2.draw_code !== match.team2.name ? <span className="draw-code-inline">{match.team2.draw_code}</span> : null}
+                        {match.team2?.name || match.team2?.draw_code || '?'}
                       </span>
-
                     </div>
 
                     <div className="schedule-match-code">{match.match_code}</div>
@@ -1999,19 +1982,12 @@ VĐV: ${t.athletes.map(a => a.name).join(' & ')}`
                   
 
                   <div className="schedule-match-athletes" style={{ flex: 1, borderLeft: '1px solid #eee', paddingLeft: 16 }}>
-
                     <div style={{ fontSize: 12, color: '#555', marginBottom: 2 }}>
-
-                       <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team1?.draw_code || 'Đội 1'}:</span> {match.team1?.athletes.map(a => a.name).join(' & ') || match.team1?.name || '—'}
-
+                       <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team1?.name || match.team1?.draw_code || 'Đội 1'}:</span> {match.team1?.athletes.map(a => a.name).join(' & ') || '—'}
                     </div>
-
                     <div style={{ fontSize: 12, color: '#555' }}>
-
-                       <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team2?.draw_code || 'Đội 2'}:</span> {match.team2?.athletes.map(a => a.name).join(' & ') || match.team2?.name || '—'}
-
+                       <span style={{fontWeight: 600, color: 'var(--blue)'}}>{match.team2?.name || match.team2?.draw_code || 'Đội 2'}:</span> {match.team2?.athletes.map(a => a.name).join(' & ') || '—'}
                     </div>
-
                   </div>
 
                 </div>
